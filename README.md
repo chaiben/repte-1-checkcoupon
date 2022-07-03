@@ -1,4 +1,4 @@
-# repte-1-checkcoupon
+# repte-1-checkcoupon (Descripción original en Catalán)
 
 En una de les botigues que el teu grup maneja li agrada regalar cupons per a ocasions especials. Però alguns clients intenten enganyar el sistema ingressant codis no vàlids o usant cupons vençuts.
 
@@ -8,6 +8,6 @@ Un cupó ja no és vàlid el dia DESPRÉS de la data de venciment. Totes les dat
 
 La funció següent mostra la capçalera i les proes de la funció a desenvolupar. Aquesta funció ha de tornar un valor i no mostrar-lo per consola.
 
-# Solucción
+# Solución
 - Vanila JavaScrip - checkCoupon.js
 - JEST como herramienta de test. Archivo de test: checkCoupon.test.js
