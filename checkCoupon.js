@@ -4,12 +4,12 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
   if (enteredCode === undefined || 
     correctCode === undefined || 
     enteredCode !== correctCode) return false;
-  else if(currentDateTime === false ||
+  
+  return !(currentDateTime === false ||
     expirationDateTime === false || 
     isNaN(currentDateTime) || 
   isNaN(expirationDateTime) || 
-  currentDateTime > expirationDateTime) return false;
-  else return true
+  currentDateTime > expirationDateTime);
 }
 
 module.exports = checkCoupon;
